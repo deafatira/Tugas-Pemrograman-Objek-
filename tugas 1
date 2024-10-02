@@ -1,0 +1,6 @@
+public class CetakNama {
+  public static void main(String[] args) {
+    String nama = "Dea";
+    System.out.println("Halo, " + nama + "!");
+  }
+}
