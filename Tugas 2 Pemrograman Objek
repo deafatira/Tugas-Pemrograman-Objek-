@@ -1,0 +1,44 @@
+public class BitwiseOr {
+    public static void main(String[] args) {
+        int a = 5;   // 101 in binary
+        int b = 3;   // 011 in binary
+
+        int hasil = a | b;
+        System.out.println("Hasil: " + hasil);
+    }
+}
+
+
+
+public class LogikaAND {
+    public static void main(String[] args) {
+        boolean a = true;
+        boolean b = true;
+
+        boolean hasil = a && b;
+        System.out.println("Hasil operasi logika AND: " + hasil);
+    }
+}
+
+public class LogikaOR {
+    public static void main(String[] args) {
+        boolean a = true;
+        boolean b = false;
+
+        boolean hasil = a || b;
+        System.out.println("Hasil operasi logika OR: " + hasil);
+    }
+}
+
+
+
+
+public class PenugasanPenambahan {
+    public static void main(String[] args) {
+        int b = 5; // Deklarasi dan penugasan nilai awal
+        b += 3; // Menambahkan 3 ke b
+        System.out.println("Nilai b setelah penambahan: " + b); // Menampilkan nilai b
+    }
+}
+
+
